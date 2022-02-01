@@ -24,10 +24,10 @@ namespace SocketInterface
             Messenger.Register<String>(this, OnStateChanged);
             Address.Text = "127.0.0.1";
             Send.Text = ""
-                + "{Set encoding, 1251}\n"
-                + "{Load task, LINE0001, ADIDAS}\n"
-                + "{Set user elements, LINE0001, 1, 3654299463,2,3604269156,3,71,4,5,5,25.05.21,6,86911497,7,РУ_НАБЕРЕЖНЫЕ ЧЕЛНЫ_ТорговыйКвартал.CS_RB new,8,C40L,9,*1204X*}\n"
-                + "{Start task, LINE0001 }";
+                + "{Set encoding,1251}\n"
+                + "{Load task,LINE0001,ADIDAS}\n"
+                + "{Set user elements,LINE0001,1,3654299463,2,3604269156,3,71,4,5,5,25.05.21,6,86911497,7,РУ_НАБЕРЕЖНЫЕ ЧЕЛНЫ_ТорговыйКвартал.CS_RB new,8,C40L,9,*1204X*}\n"
+                + "{Start task,LINE0001}";
         }
 
         private void Send_Click(object sender, RoutedEventArgs e)
